@@ -377,25 +377,3 @@ h1 {
         transform: translate(-36vmin, 1.1vmin) rotateY(-80deg) rotateX(35deg);
     }
 }
-
-
-/* Increase flower height on mobile without changing position */
-
-@media (max-width: 768px) {
-    .flower__glass {
-        height: 45vmin;
-        /* Increase height for a taller glass */
-    }
-    .flower__line {
-        height: 70vmin;
-        /* Increase height for a taller stem */
-    }
-    .flower__leaf {
-        height: 18vmin;
-        /* Increase leaf height for longer leaves */
-    }
-    .flower__leaf--1 {
-        height: 22vmin;
-        /* Make center leaf even taller */
-    }
-}
